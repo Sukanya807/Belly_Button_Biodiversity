@@ -14,6 +14,20 @@ For this purpose, we have built an interactive dashboard to explore the Belly Bu
 
 ## Screenshots of the Plotly Charts
 
-#### Bar chart for Test Subject ID 940
+### Demographic Information
+
+![](images/demographic_info.png)
+
+### Bar chart 
 
 ![](images/bar_chart.png)
+
+### Bubble Chart 
+
+![](images/bubble_chart.png)
+
+### Guage Chart
+
+![](images/guage_chart.png)
+
+
