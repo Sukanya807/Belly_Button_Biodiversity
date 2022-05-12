@@ -13,3 +13,7 @@ For this purpose, we have built an interactive dashboard to explore the Belly Bu
 - HTML
 
 ## Screenshots of the Plotly Charts
+
+#### Bar chart for Test Subject ID 940
+
+![](images/bar_chart.png)
