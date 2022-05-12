@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <!-- <div style="background-image: url('https://t3.ftcdn.net/jpg/00/79/06/60/360_F_79066088_c5bf3l2AB0Axfky6Y7JsY9HxeV3ieaV6.jpg');">  -->
+
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-12 jumbotron text-center white-text" style="background-image: url('https://www.elgalabwater.com/sites/default/files/2020-10/GettyImages-1209272360%20%281%29.jpg');background-position: center; background-size: cover;height: 250px;">
+        <h1 style= "color:white" >Belly Button Biodiversity Dashboard</h1>
+        <p style= "color:white"> Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center white-text">
+        <h2 style= "color:blue">Project Overview</h2>
+        <p class="lead">We are interested in bacterial species found in belly buttons of humans that have ability to synthesize proteins that taste like beef. This webpage provides details of the top 10 bacteria cultures found and the belly button washing frequency per week along with the demographic information of our test subjects.</p>
+        <div class="well"  style ="background-color:cadetblue;">
+          <h3>Test Subject ID No.:</h3>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading" style ="background-color:cadetblue;">
+            <h2 class="panel-title">Demographic Info</h2>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="static/js/charts.js"></script>
+
+</body>
+
+</html>
