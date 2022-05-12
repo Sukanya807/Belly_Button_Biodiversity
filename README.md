@@ -30,4 +30,8 @@ For this purpose, we have built an interactive dashboard to explore the Belly Bu
 
 ![](images/guage_chart.png)
 
+## Overview of the webpage
+
+![](images/webpage_full_view.png)
+
 
