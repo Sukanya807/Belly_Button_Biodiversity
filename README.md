@@ -6,6 +6,8 @@ This project has been undertaken on behalf of Roza, a biological researcher in a
 
 For this purpose, we have built an interactive dashboard to explore the Belly Button Biodiversity dataset. As we enter the ID number for our test subject, the webpage is updated with their demographic information, the Top 10 bacteria cultures found in the test subject along with their belly button washing frequency.
 
+[Click Here)(https://sukanya807.github.io/Plotly_Challenge/) to view the webpage.
+
 ## Tools Used
 
 - Plotly
